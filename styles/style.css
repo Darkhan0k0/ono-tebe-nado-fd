@@ -28,13 +28,13 @@
 }
 
 address {
-  display: flex;
-  flex-direction: column;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 24.3px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__address {
@@ -62,12 +62,12 @@ address {
 }
 
 .cover__title {
-  text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-style: bold;
   font-size: 100px;
   line-height: 114.99999999999999%;
+  text-transform: uppercase;
   padding: 165px 50px 0;
   color: #fff;
   position: relative;
@@ -111,24 +111,24 @@ address {
 }
 
 .cover__description-text {
-  color: #fff;
-  text-transform: uppercase;
   font-family: Raleway,sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 22px;
   line-height: 28px;
   word-spacing: 18px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .bet-button {
-  color: #fff;
-  background-color: transparent;
-  text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
 }
@@ -140,12 +140,12 @@ address {
 }
 
 .lots__heading {
-  text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-style: bold;
   font-size: 40px;
   line-height: 100%;
+  text-transform: uppercase;
   padding: 0 891px 34px 40px;
 }
 
@@ -205,13 +205,13 @@ address {
 }
 
 .card__title {
-  text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-style: bold;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
+  text-transform: uppercase;
   font-size: 22px;
   line-height: 120%;
   z-index: 10;
@@ -227,12 +227,12 @@ address {
 }
 
 .lots__look-more-link {
-  display: block;
-  padding: 30px 820px 0 40px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;  
+  font-size: 20px;
+  display: block;
+  padding: 30px 820px 0 40px;
 }
 
 .about {
@@ -274,20 +274,20 @@ address {
   font-family: Raleway, sans-serif;
   font-weight: 700px;
   font-style: bold;
-  font-size: 40px;  
+  font-size: 40px;
   text-transform: uppercase;
   line-height: 100%;
 }
 
 .about__text {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;  
+  font-size: 20px;
   line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .footer {
@@ -312,7 +312,7 @@ address {
 
 .footer__menu-list {
   list-style: none;
-  text-align: center;  
+  text-align: center;
 }
 
 .footer__menu-link {
